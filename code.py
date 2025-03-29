@@ -1,6 +1,6 @@
 def find_cube_pairs(targ):
     solutions = []
-    max_num = int(targ ** (1/3))  
+    max_num = int(targ ** (1/3))+1
 
     for a in range(1, max_num):
         for b in range(a, max_num):
